@@ -7,5 +7,5 @@ final class CartInitial extends CartState {}
 
 class CartListClass extends CartState{
   List<ProductModel>? cartList;
-  CartListClass({this.cartList});
+  CartListClass({this.cartList}); //to do for cart
 }
